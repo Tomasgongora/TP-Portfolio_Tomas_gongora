@@ -1,0 +1,387 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300&display=swap');
+
+:root {
+    /* VARIABLES DE COLORES */
+    --azul: #2C3E50;
+    --verde: #18BC9C; 
+    /*Fuentes*/
+    --fuenteTitulos: 'Montserrat', sans-serif;
+    --fuenteParrafos: 'Lato', sans-serif;
+    /*TAMAÑOS TIPOGRAFICOS*/
+    --titulos: 24px;
+    --parrafos: 12px;
+}
+
+/*GENERALES*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 0;
+    font-size: 17px;
+} 
+
+/*HEADER*/
+
+header {
+    background-color: var(--azul);
+    display: flex;
+    padding: 5px 10px; 
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1.titulo {
+    color: white;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+header nav {
+    display: none;
+}
+ 
+header div.burger-menu button {
+    border: 1px solid orange;
+    background-color: var(--verde);
+    height: 2rem;
+    width: 3.5rem;
+    border-radius: 5px;
+    color: white;
+    margin: 25px auto 0;
+}
+
+/*MAIN*/
+
+main div.banner {
+    background-color: var(--verde);
+    text-align: center;
+}
+
+main div.titulo_star {
+    color: white;
+    font-size: 30px;
+}
+
+main div p.titulo_parrafo {
+    color: white;
+    margin-top: 15px;
+    padding-bottom: 50px;
+}
+
+main section button {
+    background-color: var(--verde);
+    border: 1px solid orange;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    padding: 15px 30px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+} 
+
+main section div.send button {
+    background-color: var(--verde);
+    border: 1px solid orange;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    padding: 10px 20px;
+    margin: 20px 35px;
+}
+
+main section form {
+    width: 70%;
+}
+
+main div h2 {
+    margin-bottom: 20px;
+}
+
+main div.star {
+    margin-bottom: 25px;
+}
+
+main section div.form-container {
+    width: 100%;
+    margin-left: 50px;
+}
+
+main section div.send {
+    margin-left: 50px;
+}
+
+section div.product-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 3rem 0;
+}
+img.banner {
+    margin-top: 40px;
+}
+
+main div.h2 {
+    text-align: center;
+    color: var(--azul);
+    margin-top: 20px;
+    font-size: 35px;
+}
+
+main section div.about_star {
+    font-size: 35px;
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+
+main section div.about {
+    background-color: var(--verde);
+    text-align: center;
+    color: white;
+}
+
+main section div.container_lorem  {
+    gap: 20px;
+    display: flex;
+}
+
+main section div.contact {
+    background-color: white;
+    text-align: center;
+    color: var(--azul);
+    font-size: 35px;
+    padding-top: 20px;
+}
+
+.input-container{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    width: 100%;
+    padding: 0 2px;
+    
+}
+
+input.input-style {
+    border: none;
+    height: 2rem;
+    padding: 0 0.5rem;
+    outline: none;
+    margin-left: 35px;
+    border-bottom: 1px black solid;
+}
+
+section div textarea.mensaje {
+    border: none;
+    height: 2rem;
+    padding: 0 0.5rem;
+    outline: none;
+    margin-left: 35px;
+    border-bottom: 1px black solid;
+}
+
+section div.product-container article.seccion__productos-tarjetas {
+    border: 1px solid var(--Gris-claro);
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 0.5rem 0.5rem 0.5rem;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    max-width: 400px;
+    box-shadow: 0px 0px 10px rgb(100, 100, 100); 
+}
+
+section div.product-container article.seccion__productos-tarjetas div.producto {
+    position: relative;
+    width: 100%;
+    border-top: 1px solid #ebebeb;
+    padding: 15px 15px 5px 15px;
+  }
+
+main section article {
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+main section article div.producto {
+    border-top: 1px solid var(--gris-claro);
+    padding: 15px;
+}
+
+div.producto {
+    color: var(--gris-oscuro);
+}
+
+/*SECCIONES*/
+
+
+main section article div.producto {
+    position: relative;
+}
+
+section div.product-container article.seccion__productos-tarjetas div.product-img {
+    width: 100%;
+    height: 250px;
+    margin-bottom: 0.5rem;
+}
+
+div.product-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/*FOOTER*/
+
+footer{
+    background-color: var(--azul);
+}
+
+
+footer div.redes_sociales a{
+    font-size: 15px;
+    padding: 5px;
+    width: 2rem;
+    height: 2rem;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-top: 15px;
+}
+
+footer article {
+    text-align: center;
+    padding: 15px 50px;
+    margin-bottom: 15px;
+}
+
+footer article h2 {
+    font-size: var(--titulos);
+    margin-top: 15px;
+}
+
+footer article p.ubicacion_parrafo {
+    margin-top: 15px;
+}
+
+footer article.ubicacion {
+    color: white;
+}
+
+footer article div.redes_titulo {
+    color: white;
+}
+
+footer article.footer_about {
+    color: white;
+}
+
+footer article.footer_about p.freelancer {
+    margin-top: 15px;
+}
+
+footer article.footer_about p span.verde {
+    color: var(--verde);
+}
+
+footer p.copy {
+    text-align: center;
+    color: white;
+}
+
+@media (min-width: 769px) {
+
+    main section div.form-container {
+        width: 100%;
+        margin-left: 100px;
+    }
+
+    main section div.send {
+        margin-left: 100px;
+    }
+
+    header nav.nav-bar {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    header div.burger-menu {
+        display: none;
+    }  
+
+    header nav.nav-bar ul {
+        display: flex;
+    
+    }
+
+    header nav.nav-bar ul li {
+        display: flex;
+    
+    }
+    
+    header nav.nav-bar li {
+        margin: 0 10px;
+        list-style: none;
+    }
+
+    header nav.nav-bar a {
+        font-size: 19px;
+    }
+
+    header div.burger-menu button {
+        display: none;
+    }
+
+    header.home_section-productos {
+        position: relative;
+    }
+
+    header .main_header_top_bar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    } 
+
+    header div.top_bar {
+        display: flex;
+        flex-grow: 1;
+        justify-content: space-between;
+    }
+    
+    section div.product-container {
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    footer div.footer {
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+@media (min-width: 1200px) {
+
+    main section div.form-container {
+        width: 100%;
+        margin-left: 150px;
+    }
+    
+    main section div.send {
+        margin-left: 150px;
+    }
+   
+}
+
+
+ 

@@ -1,0 +1,17 @@
+Realizar una landing page tomando como referencia las imagenes en la carpeta mockups, con una navegacion 100% funcional.
+
+Levantar un servidor que renderice dicha página.
+
+Crear la carpeta public, con su subcarpetas images y css, en la cual estaran los archivos correspondientes.
+
+Crear la carpeta views para nuestro html.
+
+Respetar los colores, tipografias e imagenes.
+
+- Colores
+	• Azul - #2C3E50
+	• Verde - #18BC9C
+
+- Tipografías (Google Fonts)
+	• Montserrat - Títulos
+	• Lato - Párrafos y demás
